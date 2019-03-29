@@ -12,6 +12,7 @@
 		3D30BF4722443C1B00ED5F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D30BF4522443C1B00ED5F0A /* Main.storyboard */; };
 		3D30BF4922443C2000ED5F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D30BF4822443C2000ED5F0A /* Assets.xcassets */; };
 		3D30BF4C22443C2000ED5F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D30BF4A22443C2000ED5F0A /* LaunchScreen.storyboard */; };
+		3D7EBC67224DB1AB00BC8213 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7EBC66224DB1AB00BC8213 /* CommentCell.swift */; };
 		3DF283CC22445AEC00EDBCEA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF283CB22445AEC00EDBCEA /* LoginViewController.swift */; };
 		3DF283CE22445AFE00EDBCEA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF283CD22445AFE00EDBCEA /* FeedViewController.swift */; };
 		3DF283D0224470D700EDBCEA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF283CF224470D700EDBCEA /* CameraViewController.swift */; };
@@ -25,6 +26,7 @@
 		3D30BF4822443C2000ED5F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D30BF4B22443C2000ED5F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D30BF4D22443C2000ED5F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7EBC66224DB1AB00BC8213 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		3DF283CB22445AEC00EDBCEA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3DF283CD22445AFE00EDBCEA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		3DF283CF224470D700EDBCEA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				3DF283CD22445AFE00EDBCEA /* FeedViewController.swift */,
 				3DF283CF224470D700EDBCEA /* CameraViewController.swift */,
 				3DF283D12244814700EDBCEA /* PostCell.swift */,
+				3D7EBC66224DB1AB00BC8213 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -209,6 +213,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +233,7 @@
 				3DF283CE22445AFE00EDBCEA /* FeedViewController.swift in Sources */,
 				3D30BF4222443C1B00ED5F0A /* AppDelegate.swift in Sources */,
 				3DF283D22244814700EDBCEA /* PostCell.swift in Sources */,
+				3D7EBC67224DB1AB00BC8213 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

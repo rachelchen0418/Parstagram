@@ -25,6 +25,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
         )
         
+        if PFUser.current() != nil {
+            // parse XML
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+            
+            // the only use case for window and no animation needed to switch this view controller
+            window?.rootViewController = feedNavigationController
+        }
+        
         return true
     }
 
